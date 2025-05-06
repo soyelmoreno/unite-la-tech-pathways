@@ -1,0 +1,118 @@
+/* Import fonts */
+@font-face {
+  font-family: HK Grotesk;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+    format("opentype");
+}
+@font-face {
+  font-family: HK Grotesk;
+  font-weight: bold;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+    format("opentype");
+}
+
+body {
+  font-family: "HK Grotesk", sans-serif;
+  /*   background-color: #ddeeff; */
+  background-color: #333333;
+}
+
+.post-container {
+  background-color: #000000;
+  width: 600px;
+  height: 900px;
+  margin: 1rem auto;
+  padding: 2rem;
+}
+
+.post {
+  background-color: #333333;
+  border-radius: 8px;
+  margin-bottom: 0rem;
+  padding: 12px;
+  color: #ffffff;
+}
+
+.post-header {
+  display: flex;
+}
+
+.post-header-item {
+  /*     border: 3px solid cyan; */
+}
+
+.post-header-item:nth-child(2) {
+  flex: 1 1 auto;
+  padding-left: 8px;
+}
+
+.post-header-item .poster-name {
+  font-weight: bold;
+}
+
+.header-action {
+  padding: 8px 12px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50px;
+  color: #cccccc;
+}
+
+.header-action:hover {
+  background-color: #666666;
+}
+
+.post-content {
+  background-color: #ffffff;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post-reactions-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #999999;
+  color: #bbbbbb;
+}
+
+.post-reactions {
+  display: flex;
+  gap: 0px;
+  padding: 0;
+  list-style-type: none;
+  color: #cccccc;
+}
+
+.post-reactions-buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 4px;
+  padding: 8px 0;
+  border-bottom: 1px solid #999999;
+}
+
+.reaction-button {
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  color: #cccccc;
+  padding: 8px;
+  flex: 1 1 auto;
+}
+
+.reaction-button:hover {
+  background-color: #666;
+}
+
+.post-comments {
+  padding-top: 8px;
+}
+
+.post-comments input {
+  width: 100%;
+  padding: 8px;
+}

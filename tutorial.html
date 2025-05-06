@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quick HTML Tutorial | Carlos Glitch</title>
+    <link rel="stylesheet" href="tutorial.css" />
+  </head>
+
+  <body>
+    <h1>HTML</h1>
+    <p>HTML stands for Hyper-Text Markup Language.</p>
+
+    <h1>This is a Heading</h1>
+    <h2>Heading level two</h2>
+    <h3>Heading level three. They go to H6</h3>
+
+    <p>
+      Paragraphs and blurbs go in a P tag. Usually you don't put a single word
+      or a short phrase in a P tag, it's not meant for that. Use a SPAN or DIV
+      that.
+    </p>
+
+    <p style="color: green">
+      Next paragraph <span class="actually-bad">starts here</span>. If I need a
+      line break <br />
+      while staying in the paragraph, I can just add one. <br />
+      And then keep going in the paragraph.
+    </p>
+
+    <p>Let's say I have a few more paragraphs.</p>
+
+    <div class="border p-2">
+      <p>
+        A div is a block-level element with no semantic meaning. Good for
+        generic wrappers or containers. Not good for paragraphs.
+      </p>
+      <p>
+        SPANs are inline-elements.
+        <span class="super-cool">Normally you use</span> a span when you are in
+        the middle of inline content like text, and you want to insert
+        something, like
+        <span class="not-bad">text with different styling</span>, or perhaps an
+        image
+      </p>
+    </div>
+
+    <ul>
+      <li>Heading 1-6</li>
+      <li>Paragraph</li>
+      <li>div</li>
+    </ul>
+    <ul class="no-bullet">
+      <li>span</li>
+      <li>line break</li>
+      <li>horizontal rule</li>
+      <li>unordered list</li>
+    </ul>
+
+    <ol>
+      <li>style attribute</li>
+      <li class="super-cool">CSS class</li>
+    </ol>
+
+    <p>
+      Can plop an image right inline.
+      <img
+        src="https://cdn.glitch.global/198d9ba6-04af-43f6-a469-dc367b7c7c8c/dad-gab.jpg?v=1713418586274"
+        width="200"
+        alt=""
+      />
+      And then keep writing. But the image usually blows up the layout. Better
+      to give it smaller dimensions, or put it inside a block element like a
+      div.
+    </p>
+
+    <h2>Okay, layout</h2>
+
+    <div
+      class="border border-green p-3"
+      style="display: flex; justify-content: space-between"
+    >
+      <div>Box 1</div>
+      <div>Box 2</div>
+    </div>
+  </body>
+</html>
