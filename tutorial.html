@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Quick HTML Tutorial | Carlos Glitch</title>
+    <link rel="stylesheet" href="base.css" />
     <link rel="stylesheet" href="tutorial.css" />
   </head>
 
@@ -64,7 +65,7 @@
       Can plop an image right inline.
       <img
         src="https://cdn.glitch.global/198d9ba6-04af-43f6-a469-dc367b7c7c8c/dad-gab.jpg?v=1713418586274"
-        width="200"
+        width="150"
         alt=""
       />
       And then keep writing. But the image usually blows up the layout. Better
@@ -76,7 +77,11 @@
 
     <div
       class="border border-green p-3"
-      style="display: flex; justify-content: space-between"
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      "
     >
       <div>Box 1</div>
       <div>Box 2</div>
