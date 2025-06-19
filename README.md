@@ -1,12 +1,13 @@
 # Unite-LA's Tech Pathways Academy
 
-As a volunteer for the Software Development phase of the academy, you'll do two
-sessions with the cohort:
+I'm a volunteer for the Software Development phase of Unite La's Tech
+Pathways Academy. Twice a year, I do two sessions with the cohort:
 
 1. speaker session
 2. coding activity
 
-This repo holds resources for the coding activity.
+This repo holds resources for the coding activity, along with
+instructions for myself.
 
 ## Setup
 
@@ -16,7 +17,7 @@ See if the previous project still exists:
 
 https://glitch.com/edit/#!/shine-nostalgic-blinker
 
-If not, wreate a new project for a static site. Basically just remix (clone)
+If not, create a new project for a static site. Basically just remix (clone)
 "Blank Website" and add the code files. Upload the image files into Glitch -->
 Assets.
 
@@ -34,7 +35,8 @@ Then, when you're ready, save these three files as
 - activity.css
 - activity.js
 
-Delete everything in activity.css except for the bare miminum starter rules, and a few CSS rules.
+Delete everything in activity.css except for the bare miminum starter rules,
+and a few CSS rules.
 
 ## Coding activity
 
